@@ -21,13 +21,13 @@ in place while the right column scrolls. On mobile the columns stack.
 
 ### Right column (scrolling)
 
-| Section          | Content                                                                                                                                                                              |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **About**        | Profile summary, education, focus on C# / .NET and React / Next.js                                                                                                                   |
-| **Experience**   | PT. Berlian Sistem Informasi (New DNet, DNet Change Request Team, Hyto) · LAPI – ITB (PROPAR PHE SHU Pertamina) · PT Sawerigading Multi Kreasi · PT. Arkamaya · PT Virtua Internasional Pratama |
-| **Projects**     | PIR – Potensi Investasi Regional (BKPM) and PIR Admin · Satu Data MUBA · Sistem Informasi Bantuan Sosial Musi Banyuasin                                                              |
-| **Education & Skills** (optional) | Universitas Padjadjaran, Universitas Indonesia Membangun, courses, certifications, skills                                                                           |
-| **Footer**       | Short credit for the stack used                                                                                                                                                      |
+| Section                           | Content                                                                                                                                                                                         |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **About**                         | Profile summary, education, focus on C# / .NET and React / Next.js                                                                                                                              |
+| **Experience**                    | PT. Berlian Sistem Informasi (New DNet, DNet Change Request Team, Hyto) · LAPI – ITB (PROPAR PHE SHU Pertamina) · PT Sawerigading Multi Kreasi · PT. Arkamaya · PT Virtua Internasional Pratama |
+| **Projects**                      | PIR – Potensi Investasi Regional (BKPM) and PIR Admin · Satu Data MUBA · Sistem Informasi Bantuan Sosial Musi Banyuasin                                                                         |
+| **Education & Skills** (optional) | Universitas Padjadjaran, Universitas Indonesia Membangun, courses, certifications, skills                                                                                                       |
+| **Footer**                        | Short credit for the stack used                                                                                                                                                                 |
 
 Each experience entry shows the period, a description, highlights and
 tech-stack tags. The full résumé is available as a PDF at
@@ -35,15 +35,15 @@ tech-stack tags. The full résumé is available as a PDF at
 
 ## Tech Stack
 
-| Area       | Technology                                   |
-| ---------- | -------------------------------------------- |
-| Framework  | [Next.js 14](https://nextjs.org) (App Router) |
-| Language   | TypeScript                                   |
-| UI         | React 18                                     |
-| Styling    | [Tailwind CSS 3](https://tailwindcss.com), Inter font via `next/font`, dark navy theme |
-| Database   | [PostgreSQL on Neon](https://neon.tech) (serverless Postgres) |
-| Linting    | ESLint (`eslint-config-next`)                |
-| Hosting    | [Vercel](https://vercel.com)                 |
+| Area      | Technology                                                                             |
+| --------- | -------------------------------------------------------------------------------------- |
+| Framework | [Next.js 14](https://nextjs.org) (App Router)                                          |
+| Language  | TypeScript                                                                             |
+| UI        | React 18                                                                               |
+| Styling   | [Tailwind CSS 3](https://tailwindcss.com), Inter font via `next/font`, dark navy theme |
+| Database  | [PostgreSQL on Neon](https://neon.tech) (serverless Postgres)                          |
+| Linting   | ESLint (`eslint-config-next`)                                                          |
+| Hosting   | [Vercel](https://vercel.com)                                                           |
 
 Résumé content currently lives in [`src/data/resume.ts`](src/data/resume.ts).
 The Neon PostgreSQL database is set up for this project but not yet connected
@@ -88,12 +88,12 @@ Variables**.
 
 ## Scripts
 
-| Command         | Description                   |
-| --------------- | ----------------------------- |
-| `npm run dev`   | Start the development server  |
-| `npm run build` | Build for production          |
-| `npm run start` | Run the production build      |
-| `npm run lint`  | Run ESLint                    |
+| Command         | Description                  |
+| --------------- | ---------------------------- |
+| `npm run dev`   | Start the development server |
+| `npm run build` | Build for production         |
+| `npm run start` | Run the production build     |
+| `npm run lint`  | Run ESLint                   |
 
 ## Deployment
 
@@ -103,5 +103,5 @@ deployment.
 
 ## Contact
 
-- Email: safari.erie@gmail.com
+- Email: ncs.safari@gmail.com
 - GitHub: https://github.com/safari05
