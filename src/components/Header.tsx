@@ -18,10 +18,10 @@ const Header = () => {
                 <h2 className="mt-3 text-lg font-medium text-slate-200 sm:text-xl">
                     {profile.title}
                 </h2>
-                <p>
+                <p className="mt-4 max-w-xs leading-normal">
                     {profile.tagline}
                 </p>
-                <nav className="hidden lg:block" arial-label="in-page navigation">
+                <nav className="hidden lg:block" aria-label="in-page navigation">
                     <ul className="mt-16 w-max space-y-4">
                          {navItems.map((item) => (
                             <li key={item.id}>
@@ -36,11 +36,11 @@ const Header = () => {
                     </ul> 
                 </nav>
             </div>
-            <ul className="mt-8 flex items-center gap-5" arial-label="Social media">
+            <ul className="mt-8 flex items-center gap-5" aria-label="Social media">
                 <li>
                     <a href={profile.github} target="_blank" rel="noreferrer" 
                     className="hover:text-slate-200">
-                        Gthub
+                        Github
                     </a>
                 </li>
                 <li>

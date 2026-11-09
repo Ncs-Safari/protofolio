@@ -15,6 +15,10 @@ const Home = () =>{
                 <p className="h-96">About (Step 4)</p>
               </Section>
 
+              <Section id="experience" title="Experience">
+                <p className="h-96">Experience (Step 5)</p>
+              </Section>
+
               <Section id="projects" title="Projects">
                 <p className="h-96">Projects (Step 6)</p>
               </Section>
