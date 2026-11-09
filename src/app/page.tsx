@@ -1,10 +1,27 @@
 
-import {profile, experiences} from "@/data/resume";
-export default function Home() {
+
+import Header from "@/components/Header";
+import Section from "@/components/Section";
+
+const Home = () =>{
   return (
-    <main className="mx-auto min-h-screen max-w-screen-xl px-6 py-12">
-        <h1 className="text-4xl font-bold text-slate-200">Eri Safari</h1>
-        <p>{experiences.length} experiences</p>
-    </main>
-  );
+    <div className="mx-auto min-h-screen
+    max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
+      <div className="lg:flex lg:justify-between lg:gap-4"> 
+          <Header/>
+
+          <main className="pt-24 lg:w-1/2 lg:py-24">
+              <Section id="about" title="About">
+                <p className="h-96">About (Step 4)</p>
+              </Section>
+
+              <Section id="projects" title="Projects">
+                <p className="h-96">Projects (Step 6)</p>
+              </Section>
+          </main>
+      </div>
+    </div>
+  )
 }
+
+export default Home;
