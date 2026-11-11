@@ -58,14 +58,14 @@ https://brittanychiang.com/ (layout ditulis sendiri, bukan salinan kode).
 
 ## Langkah Pengerjaan (step by step)
 
-- [ ] Step 1 – Setup dasar: Next.js 14, Tailwind, font Inter, tema navy, halaman kosong jalan
-- [ ] Step 2 – Data resume: isi PDF dipindah ke `src/data/resume.ts`
-- [ ] Step 3 – Layout 2 kolom: kiri sticky, kanan scroll, responsif di HP
-- [ ] Step 4 – Section About
-- [ ] Step 5 – Section Experience (tanggal, deskripsi, tag tech stack)
-- [ ] Step 6 – Section Projects (link preview)
-- [ ] Step 7 – Navigasi aktif mengikuti scroll
-- [ ] Step 8 – Efek spotlight kursor, ikon sosial, link resume PDF
+- [x] Step 1 – Setup dasar: Next.js 14, Tailwind, font Inter, tema navy, halaman kosong jalan
+- [x] Step 2 – Data resume: isi PDF dipindah ke `src/data/resume.ts`
+- [x] Step 3 – Layout 2 kolom: kiri sticky, kanan scroll, responsif di HP
+- [x] Step 4 – Section About
+- [x] Step 5 – Section Experience (tanggal, deskripsi, tag tech stack)
+- [x] Step 6 – Section Projects (link preview)
+- [x] Step 7 – Navigasi aktif mengikuti scroll
+- [x] Step 8 – Efek spotlight kursor, ikon sosial, link resume PDF
 - [ ] Step 9 – Rapikan: SEO/metadata, favicon, cek mobile, `npm run build`
 - [ ] Step 10 – Deploy: push ke GitHub, hubungkan ke Vercel
 

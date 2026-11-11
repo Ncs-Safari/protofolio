@@ -49,14 +49,16 @@ export const profile = {
   tagline:
     "I build reliable web applications with C# / .NET, Go and Python on the back end, and React / Next.js on the front end.",
   about: [
-    "I'm a software engineer with over ten years of experience building web applications for government agencies, manufacturing, automotive and energy companies. My main focus is GO, Python, C# and the .NET ecosystem, together with React and Next.js on the front end.",
-    "I have worked on geospatial information systems for national ministries, RFID-based goods tracking for Toyota Manufacturing Indonesion (TMMIN) , Backend Enginer At Laku 6 Carosel Group, Redis and Docker.",
-    "I hold a Bachelor's degree in Information Management from Universitas Indonesia Membangun and an Associate degree from Universitas Padjadjaran.",
+    "I'm a software engineer with **over ten years** of experience building web applications for government agencies, manufacturing, automotive and energy companies. My main focus is **Go**, **Python**, **C#** and the **.NET** ecosystem on the back end, together with **React** and **Next.js** on the front end.",
+    "I have worked on **geospatial information systems** for national ministries, **RFID-based goods tracking** for **Toyota Motor Manufacturing Indonesia (TMMIN)**, and backend services as a Backend Engineer at **Laku6 (Carousell Group)**, using tools such as **Redis** and **Docker**.",
+    "I hold a Bachelor's degree in Information Management from **Universitas Indonesia Membangun** and an Associate degree from **Universitas Padjadjaran**.",
   ],
   email: "safari.erie@gmail.com",
   github: "https://github.com/safari05",
   resumePdf: "/Eri-Safari-Resume.pdf",
   photo: "/foto_profile_square.jpg",
+  // Badge di header. Kosongkan ("") untuk menyembunyikan.
+  availability: "Open to new opportunities",
 };
 
 export const experiences: Experience[] = [
@@ -75,9 +77,9 @@ export const experiences: Experience[] = [
           "Migrating the legacy DNet system to a new microservice-based platform.",
         highlights: [
           "Migrated the Training Management System module from legacy DNet to New DNet.",
-          "Developed SAP integration for Delivery Order processing.",
-          "Applied Domain-Driven Design (DDD) to structure business logic into clear domain boundaries.",
-          "Implemented Redis caching to improve application performance.",
+          "Developed **SAP integration** for Delivery Order processing.",
+          "Applied **Domain-Driven Design (DDD)** to structure business logic into clear domain boundaries.",
+          "Implemented **Redis caching** to improve application performance.",
         ],
         tech: [
           "C#",
@@ -97,8 +99,8 @@ export const experiences: Experience[] = [
           "Developed new features and enhancements for DNet After Sales, the dealer network system of MMKSI (Mitsubishi Motors Krama Yudha Sales Indonesia).",
         highlights: [
           "Built a randomized customer satisfaction survey generator for after-sales service.",
-          "Developed a global service reminder feature with automatic re-notification (up to 3 times) to remind customers to complete the survey.",
-          "Integrated DNet with the DMS (Dealer Management System) for service reminder follow-up.",
+          "Developed a global service reminder feature with automatic re-notification (**up to 3 times**) to remind customers to complete the survey.",
+          "Integrated DNet with the **DMS** (Dealer Management System) for service reminder follow-up.",
           "Fixed bugs in the E-Coupon Free Service module.",
         ],
         tech: ["C#", "VB.NET", "AutoMapper", "SQL Server"],
@@ -125,7 +127,7 @@ export const experiences: Experience[] = [
       "Developed and maintained PROPAR (Property Asset and Recovery) for PHE SHU Pertamina.",
     highlights: [
       "Refactored code to support new enhancements.",
-      "Built asynchronous Excel import processing.",
+      "Built **asynchronous Excel import** processing.",
       "Consumed external APIs for regional data and the master structure hierarchy.",
       "Created schedulers (hourly, daily, weekly, monthly, yearly) for data updates.",
       "Collaborated with stakeholders to define project requirements and timelines.",
@@ -140,10 +142,10 @@ export const experiences: Experience[] = [
     summary:
       "Built and maintained backend services for Laku6, a used-phone trade-in platform, with a focus on the Retail Buy Back (RBB) program and marketplace integrations.",
     highlights: [
-      "Developed backend services for Retail Buy Back (RBB), integrating the trade-in flow with Tokopedia and Blibli so customers could sell their used phones directly from the marketplace.",
-      "Built backend services for the Samsung Trade-In program in Indonesia and Singapore, including AYCT, which accepts phones in any condition, even completely dead devices.",
+      "Developed backend services for Retail Buy Back (RBB), integrating the trade-in flow with **Tokopedia** and **Blibli** so customers could sell their used phones directly from the marketplace.",
+      "Built backend services for the **Samsung Trade-In** program in **Indonesia and Singapore**, including AYCT, which accepts phones in any condition, even completely dead devices.",
       "Designed and developed backend APIs using a microservices architecture and test-driven development (TDD).",
-      "Built a gRPC service in Go (Gin) to calculate price additions and deductions, monitored with Grafana.",
+      "Built a **gRPC service in Go** (Gin) to calculate price additions and deductions, monitored with Grafana.",
       "Maintained the WhatsApp broadcast messaging feature for Maujual.com using Python and Django.",
       "Worked in an Agile team, planning and tracking sprints in Jira and collaborating with engineers, QA and product through Slack.",
     ],
@@ -154,7 +156,7 @@ export const experiences: Experience[] = [
     company: "PT. Arkamaya",
     role: "Software Engineer",
     summary:
-      "Built applications for Toyota Motor Manufacturing Indonesia, including goods tracking from vendors to TMMIN using RFID, following Toyota's TDK development standards.",
+      "Built applications for **Toyota Motor Manufacturing Indonesia**, including goods tracking from vendors to TMMIN using **RFID**, following Toyota's TDK development standards.",
     tech: ["C#", "SQL Server", "RFID"],
   },
   {
@@ -162,7 +164,7 @@ export const experiences: Experience[] = [
     company: "PT Virtua Internasional Pratama",
     role: "Software Engineer",
     summary:
-      "Worked on government projects, mostly Geographic Information Systems (GIS) for geospatial information agencies.",
+      "Worked on government projects, mostly **Geographic Information Systems (GIS)** for geospatial information agencies.",
     tech: ["C#", "PostgreSQL", "GIS"],
   },
 ];
@@ -172,7 +174,7 @@ export const projects: Project[] = [
     name: "PIR – Potensi Investasi Regional",
     company: "PT Virtua Internasional Pratama",
     description:
-      "A geospatial information system for investment potential and opportunities across 38 provinces and 514 regencies/cities in Indonesia, part of the Ministry of Investment (BKPM) website. It covers regional profiles, demographics, commodities, income, regional minimum wage and supporting infrastructure. The PIR Admin platform manages investment and commodity data, access rights, textual data and spatial uploads (.shp).",
+      "A geospatial information system for investment potential and opportunities across **38 provinces** and **514 regencies/cities** in Indonesia, part of the **Ministry of Investment (BKPM)** website. It covers regional profiles, demographics, commodities, income, regional minimum wage and supporting infrastructure. The PIR Admin platform manages investment and commodity data, access rights, textual data and spatial uploads (.shp).",
     tech: ["C#", "PostgreSQL", "GIS"],
     links: [
       { label: "PIR", href: "https://regionalinvestment.bkpm.go.id/pir" },
@@ -183,7 +185,7 @@ export const projects: Project[] = [
     name: "Satu Data MUBA",
     company: "PT Sawerigading Multi Kreasi",
     description:
-      "A One Data platform for the local government of Musi Banyuasin with three access levels: open data for the public, limited data for specific departments (OPD), and closed data for authorized personnel. Integrated with Satu Data Indonesia (data.go.id) for consistency across national data systems.",
+      "A One Data platform for the local government of Musi Banyuasin with **three access levels**: open data for the public, limited data for specific departments (OPD), and closed data for authorized personnel. Integrated with **Satu Data Indonesia (data.go.id)** for consistency across national data systems.",
     tech: ["ASP.NET Core 8", "PostgreSQL", "React", "Next.js"],
     links: [{ label: "Satu Data MUBA", href: "https://satudata.mubakab.go.id/" }],
   },

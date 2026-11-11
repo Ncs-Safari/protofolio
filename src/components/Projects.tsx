@@ -1,4 +1,6 @@
 import { projects } from "@/data/resume";
+import Highlight from "@/components/Highlight";
+import Reveal from "@/components/Reveal";
 import TechList from "@/components/TechList";
 
 const Projects = () => {
@@ -8,7 +10,7 @@ const Projects = () => {
         const mainLink = project.links[0];
 
         return (
-          <li key={project.name}>
+          <Reveal as="li" key={project.name}>
             <div className="group relative rounded-md transition-all lg:-mx-4 lg:p-4 lg:hover:bg-slate-800/50 lg:hover:!opacity-100 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover/list:opacity-50">
               <h3 className="font-medium leading-snug text-slate-200">
                 {mainLink ? (
@@ -34,7 +36,7 @@ const Projects = () => {
                 <p className="text-sm text-slate-500">{project.company}</p>
               )}
 
-              <p className="mt-2 text-sm leading-normal">{project.description}</p>
+              <p className="mt-2 text-sm leading-normal"><Highlight text={project.description} /></p>
 
               {project.links.length > 0 && (
                 <ul className="relative z-10 mt-2 flex flex-wrap gap-x-4 gap-y-1" aria-label="Project links">
@@ -55,7 +57,7 @@ const Projects = () => {
 
               <TechList items={project.tech} />
             </div>
-          </li>
+          </Reveal>
         );
       })}
     </ul>
