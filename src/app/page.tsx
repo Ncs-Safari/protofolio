@@ -1,5 +1,6 @@
 
 
+import About from "@/components/About";
 import Header from "@/components/Header";
 import Section from "@/components/Section";
 
@@ -12,7 +13,9 @@ const Home = () =>{
 
           <main className="pt-24 lg:w-1/2 lg:py-24">
               <Section id="about" title="About">
-                <p className="h-96">About (Step 4)</p>
+                <p className="h-96">
+                  <About/>
+                </p>
               </Section>
 
               <Section id="experience" title="Experience">
