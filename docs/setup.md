@@ -8,6 +8,12 @@ Panduan membuat kerangka proyek Next.js 14 di folder `protofolio`.
 - npm (cek: `npm -v`)
 - Git
 
+## push to git
+- git remote set-url origin git@github.com:Ncs-Safari/protofolio.git
+- git remote -v
+- git push origin main
+
+
 ## 1. Masuk ke folder proyek
 
 ```bash

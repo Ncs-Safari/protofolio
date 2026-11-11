@@ -6,26 +6,29 @@ Mengganti situs resume lama https://eri-resume.vercel.app/ dengan tampilan berga
 https://brittanychiang.com/ (layout ditulis sendiri, bukan salinan kode).
 
 - Framework : Next.js 14 (App Router) + TypeScript
-- Styling   : Tailwind CSS, font Inter, tema navy gelap
-- Deploy    : Vercel
-- Repo      : https://github.com/Ncs-Safari/protofolio
-- Konten    : dari `Eri Safari-Resume.pdf`
+- Styling : Tailwind CSS, font Inter, tema navy gelap
+- Deploy : Vercel
+- Repo : https://github.com/Ncs-Safari/protofolio
+- Konten : dari `Eri Safari-Resume.pdf`
 
 ## Menu / Section Situs
 
 ### Kolom Kiri (sticky)
-- Nama      : Eri Safari
-- Jabatan   : Software Engineer / Full Stack Developer (.NET & React)
-- Tagline   : 1 kalimat singkat
-- Navigasi  : About · Experience · Projects (aktif mengikuti scroll)
-- Sosial    : GitHub (github.com/safari05), Email (safari.erie@gmail.com)
+
+- Nama : Eri Safari
+- Jabatan : Software Engineer / Full Stack Developer (.NET & React)
+- Tagline : 1 kalimat singkat
+- Navigasi : About · Experience · Projects (aktif mengikuti scroll)
+- Sosial : GitHub (github.com/safari05), Email (safari.erie@gmail.com)
 
 ### Kolom Kanan (scroll)
 
 #### 1. About
+
 - Ringkasan profil, pendidikan, fokus C# / .NET, React / Next.js
 
 #### 2. Experience
+
 - Okt 2024 – Sekarang : PT. Berlian Sistem Informasi (Part-time)
   - New DNet (Mei 2026 – Sekarang)
   - DNet Change Request Team (Jan 2025 – Feb 2026)
@@ -38,16 +41,19 @@ https://brittanychiang.com/ (layout ditulis sendiri, bukan salinan kode).
 - Link : View Full Résumé (PDF)
 
 #### 3. Projects
+
 - PIR – Potensi Investasi Regional (BKPM) + PIR Admin
 - Satu Data MUBA
 - Sistem Informasi Bantuan Sosial Musi Banyuasin
 
 #### 4. (Opsional) Education & Skills
+
 - Education : Universitas Padjadjaran (D3), Universitas Indonesia Membangun (S1)
-- Informal  : Sanbercode, kursus Udemy, Microsoft Technology Associate
-- Skills    : Bahasa pemrograman, Database, Tools, OS
+- Informal : Sanbercode, kursus Udemy, Microsoft Technology Associate
+- Skills : Bahasa pemrograman, Database, Tools, OS
 
 #### Footer
+
 - Kredit singkat (dibuat dengan Next.js, Tailwind, deploy di Vercel)
 
 ## Langkah Pengerjaan (step by step)
@@ -66,5 +72,5 @@ https://brittanychiang.com/ (layout ditulis sendiri, bukan salinan kode).
 ## Catatan / Keputusan
 
 - Bahasa situs : (Inggris / Indonesia?)
-- LinkedIn     : (ada / tidak?)
-- Foto profil  : (ada / tidak?)
+- LinkedIn : (ada / tidak?)
+- Foto profil : (ada / tidak?)
