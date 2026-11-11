@@ -1,8 +1,11 @@
 
 
 import About from "@/components/About";
+import Experience from "@/components/Experience";
 import Header from "@/components/Header";
 import Section from "@/components/Section";
+import TechList from "@/components/TechList";
+import { Exo } from "next/font/google";
 
 const Home = () =>{
   return (
@@ -13,13 +16,11 @@ const Home = () =>{
 
           <main className="pt-24 lg:w-1/2 lg:py-24">
               <Section id="about" title="About">
-                <p className="h-96">
-                  <About/>
-                </p>
+                  <About/> 
               </Section>
 
               <Section id="experience" title="Experience">
-                <p className="h-96">Experience (Step 5)</p>
+                  <Experience />
               </Section>
 
               <Section id="projects" title="Projects">
