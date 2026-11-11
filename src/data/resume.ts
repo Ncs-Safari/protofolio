@@ -56,6 +56,7 @@ export const profile = {
   email: "safari.erie@gmail.com",
   github: "https://github.com/safari05",
   resumePdf: "/Eri-Safari-Resume.pdf",
+  photo: "/foto_profile_square.jpg",
 };
 
 export const experiences: Experience[] = [
@@ -63,7 +64,7 @@ export const experiences: Experience[] = [
     period: "Oct 2024 – Present",
     company: "PT. Berlian Sistem Informasi",
     role: "Software Engineer",
-    type: "Part-time",
+    type: "Full-time",
     summary:
       "Developed and maintained web applications for client projects, covering both front-end and back-end development.",
     subProjects: [

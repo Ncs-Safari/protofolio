@@ -1,18 +1,19 @@
-
 type TechListProps = {
-    items : string[];
+    items: string[];
 };
 
-const TechList = ({items} : TechListProps) => {
+const TechList = ({ items }: TechListProps) => {
     return (
         <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
-            {items.map((item, index) => (
-                <li key={index} className="mr-2 mb-2 bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">
-                    {item}
+            {items.map((item) => (
+                <li key={item} className="mr-1.5 mt-2">
+                    <span className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        {item}
+                    </span>
                 </li>
             ))}
         </ul>
-    )
-}
+    );
+};
 
 export default TechList;

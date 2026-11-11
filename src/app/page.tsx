@@ -3,14 +3,15 @@
 import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Header from "@/components/Header";
+import Projects from "@/components/Projects";
 import Section from "@/components/Section";
-import TechList from "@/components/TechList";
-import { Exo } from "next/font/google";
+import Spotlight from "@/components/Spotlight";
 
 const Home = () =>{
   return (
     <div className="mx-auto min-h-screen
     max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
+      <Spotlight />
       <div className="lg:flex lg:justify-between lg:gap-4"> 
           <Header/>
 
@@ -24,7 +25,7 @@ const Home = () =>{
               </Section>
 
               <Section id="projects" title="Projects">
-                <p className="h-96">Projects (Step 6)</p>
+                <Projects />
               </Section>
           </main>
       </div>
