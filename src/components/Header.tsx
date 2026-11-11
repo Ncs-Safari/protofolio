@@ -1,5 +1,6 @@
 import Image from "next/image";
 import {profile} from "@/data/resume";
+import { GitHubIcon, MailIcon } from "@/components/Icons";
 
 const navItems = [
     {id: "about", label:"About"},
@@ -47,17 +48,27 @@ const Header = () => {
             </div>
             <ul className="mt-8 flex items-center gap-5" aria-label="Social media">
                 <li>
-                    <a href={profile.github} target="_blank" rel="noreferrer" 
-                    className="hover:text-slate-200">
-                        Github
+                    <a
+                        href={profile.github}
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label="GitHub (opens in a new tab)"
+                        title="GitHub"
+                        className="block text-slate-400 transition-colors hover:text-slate-200"
+                    >
+                        <GitHubIcon />
                     </a>
                 </li>
                 <li>
-                    <a href={`mailto:${profile.email}`} className="hover:text-slate-200">
-                        Email
+                    <a
+                        href={`mailto:${profile.email}`}
+                        aria-label="Email"
+                        title={profile.email}
+                        className="block text-slate-400 transition-colors hover:text-slate-200"
+                    >
+                        <MailIcon />
                     </a>
                 </li>
-
             </ul>
         </header>
     )
