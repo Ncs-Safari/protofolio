@@ -49,8 +49,8 @@ export const profile = {
   tagline:
     "I build reliable web applications with C# / .NET on the back end and React / Next.js on the front end.",
   about: [
-    "I'm a software engineer with over ten years of experience building web applications for government agencies, manufacturing, automotive and energy companies. My main focus is C# and the .NET ecosystem, from ASP.NET Framework to .NET 8, together with React and Next.js on the front end.",
-    "I have worked on geospatial information systems for national ministries, RFID-based goods tracking for Toyota, and dealer network systems for Mitsubishi Motors. Most recently, I've been migrating a legacy dealer system to a microservice platform using Domain-Driven Design, Redis and Docker.",
+    "I'm a software engineer with over ten years of experience building web applications for government agencies, manufacturing, automotive and energy companies. My main focus is GO, Python, C# and the .NET ecosystem, together with React and Next.js on the front end.",
+    "I have worked on geospatial information systems for national ministries, RFID-based goods tracking for Toyota Manufacturing Indonesion (TMMIN) , Backend Enginer At Laku 6 Carosel Group, Redis and Docker.",
     "I hold a Bachelor's degree in Information Management from Universitas Indonesia Membangun and an Associate degree from Universitas Padjadjaran.",
   ],
   email: "safari.erie@gmail.com",
