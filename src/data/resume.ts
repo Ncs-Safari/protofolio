@@ -133,26 +133,23 @@ export const experiences: Experience[] = [
     tech: ["C#", "ASP.NET 4.8", "Entity Framework", "SQL Server", "IIS"],
   },
   {
-    period: "2022 – 2023",
-    company: "PT Sawerigading Multi Kreasi",
-    role: "Frontend Developer",
+    period: "2021 – 2024",
+    company: "PT Laku6 (Carousell Group)",
+    role: "Backend Developer",
     summary:
-      "Designed and developed user interfaces for web applications using React and Next.js, integrated front-end components with C# (.NET 8) APIs, and implemented responsive design with optimized front-end performance.",
-    tech: ["React", "Next.js", "JavaScript", ".NET 8"],
-  },
-  {
-    period: "2021 – 2022",
-    company: "PT Sawerigading Multi Kreasi",
-    role: "Full Stack Developer",
+      "Built and maintained backend services for Laku6, a used-phone trade-in platform, with a focus on the Retail Buy Back (RBB) program and marketplace integrations.",
     highlights: [
-      "Designed and developed APIs with PHP and Laravel 8, including endpoints that return spatial data in GeoJSON format.",
-      "Built responsive user interfaces with Next.js and React.",
-      "Developed the Social Assistance Information System for Musi Banyuasin Regency with .NET Core 3 and PostgreSQL.",
+      "Developed backend services for Retail Buy Back (RBB), integrating the trade-in flow with Tokopedia and Blibli so customers could sell their used phones directly from the marketplace.",
+      "Built backend services for the Samsung Trade-In program in Indonesia and Singapore, including AYCT, which accepts phones in any condition, even completely dead devices.",
+      "Designed and developed backend APIs using a microservices architecture and test-driven development (TDD).",
+      "Built a gRPC service in Go (Gin) to calculate price additions and deductions, monitored with Grafana.",
+      "Maintained the WhatsApp broadcast messaging feature for Maujual.com using Python and Django.",
+      "Worked in an Agile team, planning and tracking sprints in Jira and collaborating with engineers, QA and product through Slack.",
     ],
-    tech: ["PHP", "Laravel", "React", "Next.js", ".NET Core", "PostgreSQL", "GeoJSON"],
+    tech: ["PHP", "Symfony", "Go", "Gin", "gRPC", "Python", "Django", "Ruby", "PostgreSQL", "Grafana"],
   },
   {
-    period: "2019 – 2020",
+    period: "2019 – 2021",
     company: "PT. Arkamaya",
     role: "Software Engineer",
     summary:
